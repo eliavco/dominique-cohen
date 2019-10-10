@@ -1,16 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,300i,400,600&display=swap&subset=latin-ext');
+
 // Abstract
 @import "abstract/variables";
+@import "abstract/select";
 // @import "abstract/mixins";
 // @import "abstract/functions";
 
 // Base
 @import "base/base";
-// @import "base/typography";
+@import "base/typography";
 // @import "base/utilities";
 // @import "base/animations";
 
 // Components
-// @import "components/button";
 // @import "components/tour-card";
 // @import "components/flipping-card";
 // @import "components/composition";
@@ -23,8 +26,9 @@
 // Layout
 // @import "layout/navigation";
 // @import "layout/grid";
-// @import "layout/header";
-// @import "layout/footer";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/navbar";
 
 // Pages
 // @import "pages/home";

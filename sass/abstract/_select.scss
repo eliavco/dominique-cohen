@@ -1,0 +1,9 @@
+::-moz-selection {
+  background-color: rgba($color-main-dark-1, .6);
+  color: $color-gray-light-1;
+}
+
+::selection {
+  background-color: rgba($color-main-dark-1, .6);
+  color: $color-gray-light-1;
+}

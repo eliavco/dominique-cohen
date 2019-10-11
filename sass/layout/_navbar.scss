@@ -1,7 +1,38 @@
-.navbar {
+.nav {
     position: fixed;
     top: 0;
     bottom: 0;
     background-color: $color-white;
-    min-height: 10vh;
+    height: $nav-height;
+    width: 100%;
+    box-shadow: $box-shadow-1;
+
+    &bar {
+        list-style: none;
+    }
+
+    &__list {
+        // width: 100%;
+        // text-align: right;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2rem;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &--logo {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+.logo-front {
+    height: 6rem;
+    width: auto;
 }

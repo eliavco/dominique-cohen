@@ -1,0 +1,13 @@
+.grid {
+
+    &__gallery {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        // grid-template-rows: 100rem;
+    }
+
+    &__item {
+        // background-color: black;
+        margin: 5rem;
+    } 
+}

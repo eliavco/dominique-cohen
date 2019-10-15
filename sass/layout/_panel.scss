@@ -1,0 +1,20 @@
+.panel {
+    background-color: $color-white;
+    height: 100%;
+    width: 30rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    // z-index: 100;
+
+    &__text {
+        margin: 2rem;
+        text-align: justify;
+    }
+
+    &--active {
+        display: inherit;
+    }
+}

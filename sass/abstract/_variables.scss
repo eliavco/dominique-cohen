@@ -22,4 +22,11 @@ $rem-definition: 62.5%;
 $box-shadow-1: .5rem .8rem 1rem rgba($color-black, .2);
 
 // Heights
-$nav-height: 6rem;
+$nav-height: 8rem;
+$card-height: 50rem;
+
+// MEDIA QUERIES BREAKPOINTS VALUES
+$phone: 37.5em;            // 600px
+$portrait-tablet: 56.25em; // 900px
+$landscape-tablet: 75em;   // 1200px
+$big-desktop: 112.5em;     // 1800px

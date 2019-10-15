@@ -1,0 +1,161 @@
+.card__side {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: $box-shadow-1;
+    @include respond(landscapeTablet) {
+        border-radius: 0;
+        box-shadow: none; 
+        overflow: visible;       
+    }
+
+    &--front {
+        background-color: $color-white;
+    }
+
+    &--back {
+        // &-1 { 
+            // background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+        // }
+        // &-2 {
+            background-image: linear-gradient(to right bottom, $color-main-light-2, $color-main);
+        // }
+        // &-3 {
+        //     background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+        // }
+    }
+}
+
+.card {
+    // Picture
+    &__image { 
+        background-size: cover;
+        height: 23rem;
+        background-blend-mode: screen;
+        -webkit-clip-path: ellipse(78% 60% at 38% 30%);
+        clip-path: ellipse(78% 60% at 38% 30%);
+        @include respond(landscapeTablet) {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);            
+        }
+        // -webkit-clip-path: ellipse(100% 93% at 8% 5%)
+        // clip-path: ellipse(100% 93% at 8% 5%)
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+        // &-1 {
+            // background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg);
+        // }
+
+        // &-2 {
+            // background-image: /* linear-gradient(to right bottom, $color-main-light-2, $color-main), */ url(./dev-data/img/art-1.jpg);
+        // }
+
+        // &-3 { 
+            // background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
+        // }
+    }
+
+    &__heading {
+        color: $color-white;
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: right;
+        position: absolute;
+        top: 12rem;
+        left: 4rem;
+        width: 75%;
+    }
+
+    &__heading--span {
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        padding: 1rem 1rem;
+
+        // &-1 {
+            // background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+        // }
+
+        // &-2 {
+            background-image: linear-gradient(to right bottom, rgba($color-main-light-2, .85), rgba($color-main, .85));
+        // }
+
+        // &-3 {
+            // background-image: linear-gradient(to right bottom, rgba($color-tertiary-light, .85), rgba($color-tertiary-dark, .85));
+        // }
+    }
+
+    &__details {
+        padding: 3rem;
+
+        ul {
+            list-style: none;
+            width: 80%;
+            margin: 0 auto;
+
+            li {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+
+                &:not(:last-chid) {
+                    border-bottom: 1px solid $color-gray-light-2;
+                }
+            }
+        }
+    }
+
+    &__cta {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &__price-box {
+        text-align: center;
+        margin-bottom: 6.5rem;
+        color: $color-white;
+    }
+
+    &__price--only {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    &__price--value {
+        font-size: 6rem;
+        font-weight: 100; 
+    }
+
+    @include respond(landscapeTablet) {
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: $color-white;
+        box-shadow: $box-shadow-1;
+
+        &__cta {
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: translate(0);
+            padding: 4rem;
+            padding-top: 7rem;
+        }
+
+        &__price-box {
+            margin-bottom: 3rem;
+        }
+
+        &__price--value {
+            font-size: 6rem;
+        }
+
+        &__details {
+            padding: 1rem 3rem;
+        }
+    }
+}

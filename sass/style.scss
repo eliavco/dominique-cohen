@@ -4,7 +4,7 @@
 // Abstract
 @import "abstract/variables";
 @import "abstract/select";
-// @import "abstract/mixins";
+@import "abstract/mixins";
 // @import "abstract/functions";
 
 // Base
@@ -14,10 +14,10 @@
 // @import "base/animations";
 
 // Components
-// @import "components/tour-card";
-// @import "components/flipping-card";
-// @import "components/composition";
-// @import "components/feature-box";
+@import "components/art-card";
+@import "components/flipping-card";
+@import "components/button";
+@import "components/about";
 // @import "components/story";
 // @import "components/bg-video";
 // @import "components/form";
@@ -25,10 +25,11 @@
 
 // Layout
 // @import "layout/navigation";
-// @import "layout/grid";
+@import "layout/panel";
 @import "layout/main";
 @import "layout/footer";
 @import "layout/navbar";
+@import "layout/main-gallery-grid";
 
 // Pages
 // @import "pages/home";

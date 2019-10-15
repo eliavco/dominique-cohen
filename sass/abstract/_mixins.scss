@@ -1,0 +1,40 @@
+// MEDIA QUERIES manager
+//
+// 0 - 600px:      Phones
+// 600 - 900px:    Portrait Tablets
+// 900 - 1200px:   Landscape Tablets
+// [1200 - 1800px] are our normal desktop styles
+// 1800px + :      Large desktops
+// $breakpoint:
+// - phone
+// - portraitTablet
+// - landscapeTablet
+// - largeDesktop
+// 1em in media queries = 16px
+// ORDER: base + typography > general layout + grid > page layout > components
+    
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: $phone) {
+            @content;
+        }
+    }
+    
+    @else if $breakpoint == portraitTablet {
+        @media only screen and (max-width: $portrait-tablet) {
+            @content;
+        }
+    }
+    
+    @else if $breakpoint == landscapeTablet {
+        @media only screen and (max-width: $landscape-tablet) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == largeDesktop {
+        @media only screen and (min-width: $big-desktop) {
+            @content;
+        }
+    }
+}

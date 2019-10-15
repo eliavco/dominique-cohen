@@ -1,0 +1,36 @@
+.card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: $card-height;
+
+    &__side {
+        height: $card-height;
+        transition: all 1.4s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        
+        // &--front {
+            // background-color: blue;
+        // }
+        
+        &--back {
+            // background-color: red;
+            transform: rotateY(180deg);
+        }
+    }
+
+    &-parent:hover .card .card__side {
+        &--front {
+            transform: rotateY(-180deg);
+        }
+        
+        &--back {
+            transform: rotateY(0);
+        }
+    }
+}

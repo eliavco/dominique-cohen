@@ -1,0 +1,22 @@
+.about {
+    display: grid;
+    grid-template-columns: 75% 25%;
+
+    &__text {
+        text-align: justify;
+        color: $color-main-light-2;
+        margin: 4rem;
+        margin-left: 0;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        margin: 4.5rem 0;
+    }
+
+    &__images {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}

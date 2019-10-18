@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Painting 1",
+        "summary": "This is a nice painting",
+        "details": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulput",
+        "width": 30,
+        "height": 20,
+        "depth": 15,
+        "unit": "cm",
+        "tags": ["impressionism", "painting", "color"],
+        "artist": "Sarah Cohen",
+        "description": "Oil on canvas",
+        "price": 297,
+        "image": "https://lh3.googleusercontent.com/i7_eWAvqnPc41YOU7ro-9wD97bIyGHT2DJiwNMIPiDD9fFp8_s1_gt534iSBrIUBgWD2mgrhBzYd8Y8_FQPMWzetg4U3nJ6_11CBjYPOUgZ3i8RQ4A2slwULOPBnDFpnJMncXGTdVwn5Fx3r3_UxaHYqc5-KAEc72aTVkNUOSuaiHhricLnhKsu5wMEI5hNdITpt66uGRuNS9tVaQdqySsLT53r0Jo9cICqTxCfZ6u3oUAK6cpfEfy1cLySyU2v71AWYrt_yQPkRlEa5FuTCaTJQvDRsA_2FUT3mDbyWQDswfy4JeYiJNnEYNqanbSBLWxU_Yt4Zavi_X1ffjltTUciKHJcLlVq3ceXfTB_i209pBzCC_RQs3jy_8bLweGDyuRwStCJ4N9B-AmumquxB9gJo3BTY1OOyUNt-a0e1varb_B1dhNz4cZSlXvKRcjVtFeDBlPg0aRtdm_eWrJ88KB2HXBbFWeaQNH0zm9Q8gy4UB3990J_IyiayK1Cbq0fXrBno1TR_xdO8zNwKXlBC4K3cf4yBRy-mw2IvUrrYfq_6Aje9JaGgaR2Cikg9N_2eDtTtNNLWcNhww8cf98DOHzkitphjB1pQ5WSy9a1KfkhK-U6JDxS-k_4SG-_kwaRv7uu6WeLJRiK3uAHqHWXqS4AM-nUIw86Bdmf7aS1ut8i0ePSG6fd0BU-8QXSwysaGCZPottJFmhlqJKHAi2n1iekkevA4ZxUwOMZ9GFYY-NOZbp8=w800-h557-no"
+    },
+    {
+        "name": "Painting 2",
+        "summary": "This is also a nice something",
+        "details": "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation",
+        "width": 115,
+        "height": 70,
+        "depth": 2,
+        "unit": "m",
+        "tags": ["modern", "art", "B&W"],
+        "artist": "D. Sarah Cohen",
+        "description": "Oil on paper",
+        "price": 17,
+        "image": "https://lh3.googleusercontent.com/RfatOUPwJtIb35Y9KmXHLJYfezqHdsG1LOUrR8OS1aK4-15tOyP0gwYlplGqyyJz9BC7Qr-t6sZsjKMydzfCbRnfcUWIrgfpIpJbbT_ovf1PFnXavyLj_VeZHWiTMFIhQnrBtT2ahkk5Fu2d8lo4b7f0zGA6hVv--E2Yb81x6SolCjYv3maozIf3xeiiR2u0XCqZStH5DbpWtddDwQgCiwMXm9mAzFxOlyT74OrY0IMXcmJzmTgTbXOvGJm1h4O4nM14yw6CaRL8ioxQdC-rw3SCgYCijZO-516Jp3mfiaT66waOATgTLT_EgrJDIBSQkPVoQCKQn-4-DDLmMknfJLOIRSeL_uF-ouBo5yM94Z6QeattK9py4x_ZsKf1VV8eKAHqDGdaRMZVgljesbsI3Cx22MTdNTeneXWO0KArZ7pvk7UUWaFpQws63jlTj95CRPSynrdy-vV68j4Pr9Ek2it2JogKGnz_MAl-OS5hJlC6D5tjW-nCmgMApr8gishQM_4mqNs1FpRZi6I1p7aaumV0ik1DVWlzxa7Krjn5bArG3mmhke-iD__FRx_iYgqTQinlj0zP_sjdT9azvdjW0-wJLzBirdhQ-iwf7ui3Mcv5oBWIh4z-Siumi6koguK7vtvE_NFVpmaZ6kz9LWx8rOgV6Qz87utXT04Idmmcg2Tb4zDYtD2WN2gwaLR3_q_KZZNj5WID6dCgrhd1smwjxhL71Hb8DgywbXtKiHqejuYlUsc=s500-no"
+    },
+    {
+        "name": "Painting 3",
+        "summary": "This is something nice too",
+        "details": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sen",
+        "width": 319,
+        "height": 120,
+        "depth": 105,
+        "unit": "mm",
+        "tags": ["old", "painting", "nice"],
+        "artist": "Dominuque Cohen",
+        "description": "Water on canvas",
+        "price": 330,
+        "image": "https://lh3.googleusercontent.com/W199MFMe06YNM6lUqu28XPu-Xdijq0IKvVL8UvJ79yrrrA3D5fbt7MbFI5ezSF5EHtdQIzGsy7eXY9L4cyuKVwTu_VyREoJ7671AMtSbrf7gEpEvymNOBJ_A-nNQoE8ltXI1uplwmvRIx4t1_i3-DDTvrDrMY-nTxRgUcQOKGQs3QIrfeEguqu-OCpBlCCgHx9PuhVTrWAzlD7wmA18hWSu-2JVozI9Izuv0j3kiC6uLOKbwvLjedLX8Eg8EmTdkPF1NrrYqdFd55wxd_3ccD44v8N3c6Yf4q0uU6OSK3u6ksdumasKUf93QXhkyWNfuXQUOb-L3BG62pTq6kXl2tBG2vZgQv6mdiOrAf2-T52b4ycdTjBw01otUyTIunWN7P6OWENP0QkQMnzyJ1SIgCI_LADD4lIMX6kxGuID2_z2QxK9ibjnJWyusH9DXmGdgSzW9zo85NxVbM2ybLQSkuS4sraVroNQ9mB1FhlvaiooywhN0myw4BZozYnztATYafhcf_ItbjKPxfWOGrvy-zP10nufQmf4IXRk5ArCHB6R2CxFu0JcyXFL52KUd4_th0uWxfLt9WSXHqdDo2dPA0q1t_Ttm10fqmO9RW7Kejfaaiy9ohJzEdFvkTEKlUlMPqG0EG-R7B2jnPp-mUkMG0J8vmHWi1OSKOsquCpFbJXEmRhXyZo_0NE1OK13_xlfPUiNGR705RCtn-4mF-PMxycnTDLE7wIwD9TQedTaym5h6dAs=w700-h439-no"
+    },
+    {
+        "name": "Painting 4",
+        "summary": "what a nice thing",
+        "details": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. S",
+        "width": 78,
+        "height": 95,
+        "depth": 14,
+        "unit": "in",
+        "tags": ["lovely", "artistic", "playful"],
+        "artist": "Dominique S. Cohen",
+        "description": "Oil on wood",
+        "price": 500,
+        "image": "https://lh3.googleusercontent.com/8Yp2YyEux66JDIrsCUYdfUADm6m9DdTtfL2gBFkMsM0sITyscC8jnqaZIUnuzxhcxVon2KpnAU_4NInZ3lSfQ0TC1Elf5NfR_JCN8tvuXEWHTAGiPeQb-6sSpWk73vxEZ5FCPQZ0LTkYxNKJ7j_penyWL9ztduWLrZDo2N4gjS53QxjfzoqjxIC_-liegWDafUVnmTtQEjOGyy9gtgXkgUqTkK2GYciuiT3D9zDT95lTxtayknBLmEIGHZIneX0Mq45DZN4KIqnndGGbssj7bjrnOhE67NnxqHdoTNntsaK2dHaZIfRd-ZDZ06IlVDjSPSV_8NS-6otvJMS4_O_oZe1GFWTX9MJudL2W7kCk_GQQHq5s9uOaTN7YAKXb5by7hjXDL8NKR-mLmtwTD9bKJpNdYY_4jwNkO-g6tlTarR127ceWqO8tqryq-Q-hFJwVKiPaqEREzxxvIMYPEVHd6qYG3r55ufZaOfPMx_hasDKnUIvcMX2Prv1WJ_kAeY_7GsuOy1pL5qUNBaj159tLwcnnnaZQeAFHiNqxmUZ7mRFOYnbfrHqHBr5xrISIpXF0WhuUbVLIZ1RjslF56sDjbTjudwqxegnaOOaP2cvQ3JMWX5KHiSHb7OEc5GeQi4C93hnw36qBlRb6qP9-UMKwiAHiXaV0mWmiZYuH75lUrwNLvsw3k3-HTXEiAKLtC39jVqJFalV_YJXGnYzRO7e7I-KfcND7kfUc__6NP5jlYdSoyGM=w620-h409-no"
+    }
+]

@@ -14,9 +14,9 @@ const Art = require("./../models/artModel");
 // };
 
 exports.getOverview = async (req, res, next) => {
-//   const tours = await Tour.find();
+  const arts = await Art.find();
   res.status(200).render("index/index", {
-    // arts
+    arts
   });
 };
 

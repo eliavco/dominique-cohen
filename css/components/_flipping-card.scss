@@ -33,4 +33,35 @@
             transform: rotateY(0);
         }
     }
+
+    @include respond(portraitTablet) { // and (hover:none)
+        perspective: 0;
+        -moz-perspective: 0;
+        position: relative;
+        height: 84rem;
+
+        &__side {
+            height: auto;
+            transition: all 1.4s;
+            position: relative;
+            
+            &--back {
+                transform: rotateY(0);
+                -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+            }
+        }
+        
+        &__cta {
+            background-image: linear-gradient(to right bottom, $color-main-light-2, $color-main);
+        }
+
+        &-parent:hover .card .card__side {
+            &--front {
+                transform: rotateY(0);
+            }
+        }
+
+    }
+
 }

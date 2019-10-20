@@ -4,6 +4,14 @@
         display: grid;
         grid-template-columns: auto auto auto;
         // grid-template-rows: 100rem;
+
+        @include respond(landscapeTablet) {
+            grid-template-columns: auto auto;
+        }
+
+        @include respond(phone) {
+            grid-template-columns: auto;
+        }
     }
 
     &__item {
